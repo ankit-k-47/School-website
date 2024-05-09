@@ -75,6 +75,92 @@ const Academics = () => {
         <AnimatedImage index={4} />
          </div>
       </section>
+    
+      <section className='tea'>
+         <h1>Our Teachers</h1>
+     <div className='teachers'>
+         <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src="https://www.newmacaulayenglishschool.com/static/media/Mamatha.b7d7014f73c1e8e506c7.png" alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div>
+    <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src="https://www.newmacaulayenglishschool.com/static/media/Shakeerbasha.5b8c9ce821de2ddca9a5.png" alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div>
+    <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src={img} alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div>
+    <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src={img} alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div>
+     <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src={img} alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div>
+     <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src={img} alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div>
+     <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src={img} alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div>
+     <div className="aca-card">
+      <div className="card-background"></div>
+      <div className="card-image-container">
+        <img src={img} alt="Card" />
+        <div className="card-details">
+          <h3>Ram</h3>
+          <p>Maths teacher</p>
+        </div>
+      </div>
+    </div></div>
+    
+      </section>
     </div>
   )
 }
