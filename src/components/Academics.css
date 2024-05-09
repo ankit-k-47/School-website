@@ -242,7 +242,12 @@ left: 0;
 .aca-card:hover .card-background{
   filter: blur(10px);
 }
+.aca-card:hover{
+    box-shadow:
+  3px 3px rgb(238, 180, 22) inset,
+  -0.3em 0.1em 0.2em 0.4em rgb(157, 157, 155);
 
+}
 .aca-card:hover .card-details {
   transform: translateY(0);
   opacity: 1;

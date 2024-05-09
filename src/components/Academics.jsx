@@ -102,7 +102,7 @@ const Academics = () => {
     <div className="aca-card">
       <div className="card-background"></div>
       <div className="card-image-container">
-        <img src={img} alt="Card" />
+        <img src="https://www.newmacaulayenglishschool.com/static/media/Jalaja.cb83c8b9c379e835f5ea.png" alt="Card" />
         <div className="card-details">
           <h3>Ram</h3>
           <p>Maths teacher</p>
@@ -112,7 +112,7 @@ const Academics = () => {
     <div className="aca-card">
       <div className="card-background"></div>
       <div className="card-image-container">
-        <img src={img} alt="Card" />
+        <img src="https://www.newmacaulayenglishschool.com/static/media/Shakunthala.77decada3a7f341246b1.png" alt="Card" />
         <div className="card-details">
           <h3>Ram</h3>
           <p>Maths teacher</p>
