@@ -1,0 +1,99 @@
+.hero{
+    background-image: url("https://assets.pewresearch.org/wp-content/uploads/sites/1/2018/09/FT_18.09.05_StudentFacts.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(200, 185, 185, 0.807);
+    height: 60vh;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px white;
+}
+.hero h1{
+    animation: blink 2s infinite;
+
+}
+ @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+.process-main{
+  
+}
+.process{
+    
+    margin: 60px;
+}
+.process h1{
+    font-size: 50px;
+}
+.process-sub{
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 20px;
+    text-align: justify ;
+}
+.stages{
+    padding: 20px;
+    color: white;
+    background-color: rgb(141,141,220);
+}
+.cycle{
+   background-color: rgba(240, 248, 255, 0.492);
+    padding: 30px;
+}
+.enquiry{
+ background-image: url('https://www.newmacaulayenglishschool.com/static/media/MacaulaySchoolPics.524fdd5654004eefc0de.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.form {
+   
+   padding: 10px;   
+  display: flex;
+  flex-direction: column;
+
+ text-align: justify;
+align-items: center;
+ 
+}
+
+.form div {
+    background-color: black;
+    width: max-content;
+     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  
+color: white;
+  padding: 20px;
+    border-radius: 10PX;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input,
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+button[type="submit"] {
+  padding: 8px;
+  width: 220px;
+  background-color: rgb(141,141,220);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

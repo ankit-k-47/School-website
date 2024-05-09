@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.gallery {
+  font-family: "Outfit", 'sans-serif';
+}
+
+.gal-intro {
+  background-image: url('E:\\DrighnaTech\\School\\school-website\\src\\assets\\gathering.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.703);
+  color: beige;
+  text-shadow: 0 0 25px black;
+  text-align: center;
+  font-size: 40px;
+}
+
+#album_info thead {
+  display: none;
+}
+
+input.form-control.form-control-sm {
+  margin: 0px !important;
+  display: block !important;
+}
+
+#album_info td,
+#album_info th {
+  padding: 0;
+  border: 0px;
+}
+
+.dataTables_info {
+  padding: 0px !important;
+  color: #85754E;
+  margin-top: -5px;
+}
+
+.dataTable td,
+.dataTable th {
+  height: 100%;
+}
+
+#album_info .dataTables_empty {
+  padding: 0px 15px;
+}
+
+.page-item.active .page-link {
+  background-color: #1A3A66;
+  border-color: #1A3A66;
+}
+
+.album-card {
+  background-color: white;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  display: block;
+  border-radius: 10px;
+  height: 100%;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.album-img-blk {
+  padding-top: 60%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transition: all .4s ease-in-out 0s;
+  -moz-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.album-img-blk:hover {
+  background-size: 120%;
+}
+
+.album-info-blk {
+  position: relative;
+  padding: 15px 15px;
+  overflow: auto;
+}
+
+.album-date {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 60px;
+  text-align: center;
+  line-height: 22px;
+  background: white;
+  color: #898d8d;
+  padding: 8px 0px;
+  border-radius: 5px;
+}
+
+.album-day {
+  color: #1A3A66;
+  font-size: 22px;
+}
+
+.album-month {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.album-title {
+  color: rgb(141,141,220);
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  width: fit-content;
+}
+
+.album-year-select:first-child {
+  margin-left: 0px;
+}
+
+.album-year-select.active {
+  background: #1A3A66;
+  color: #fff;
+}
+
+.gal-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ gap: 40px;
+}
+.gal-sub{
+    height: 100vh;
+    display: flex;
+   flex-direction: row;
+   justify-content:center;
+  
+}
+@media (max-width: 992px) {
+    .gal-sub {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+    }
+}
+.subsection{
+    margin-top: 20px;
+    padding: 60px;
+}
+.subsection h1{
+
+    
+    line-height: 1.2;
+    font-size: xx-large;
+}
+.subsection p{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 35px;
+}
+.subsection img{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 80%;
+    
+     transition: transform 0.4s ease-in-out;
+    transform-origin: center;
+}
+.subsection img:hover{
+    transform: scale(1.2);
+}
+

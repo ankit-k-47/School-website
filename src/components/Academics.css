@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Outfit:wght@100..900&display=swap');
+.academic-main{
+background-image: url("https://www.oakridge.in/wp-content/uploads/2020/09/1B_Banner-1.jpg");
+background-size:cover;
+background-position: right;
+background-repeat: no-repeat;
+height:80vh;
+}
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+}
+.top-banner-body.right {
+    right: 2%;
+    position: absolute;
+    top: 70% !important;
+}
+.top-banner-body .text-section {
+    width: 80%;
+    padding: 20px;
+    font-family: "Outfit";
+    background-color: rgb(141, 141, 220);
+    position: relative;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: -169px;
+    text-align: center;
+}
+.top-banner-body .text-section:before {
+    content: "";
+    position: absolute;
+    background: url("https://www.oakridge.in/wp-content/themes/oakridge/assets/images/Shape.svg") no-repeat;
+    height: 20px;
+    width: 50px;
+    bottom: -18px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: contain;
+}
+.top-banner-body .text-section h1 {
+ 
+    font-size: 42px;
+    color: #fff;
+}
+.pre{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #f2f2f2;
+}
+.pre h1, .pri h1{
+     text-shadow: 0 0 10px wheat  ;
+     font-family: "Briem Hand", cursive;
+  color: rgb(69, 116, 158);
+    padding: 10px;
+    width: fit-content;
+    font-style: italic;
+ 
+    font-size: 40px;
+}
+.pre div{
+   
+    gap: 30px;
+
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+.aca-img {
+  position: relative;
+}
+
+.aca-img-inner {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.aca-img-inner.visible {
+  opacity: 1;
+}
+
+.aca-img-inner img {
+  height: 350px;
+}
+
+.aca-img-inner::before {
+  content: "";
+  transition: 2s;
+  position: absolute;
+  background: #ffc33d;
+  height: 98%;
+  width: 8px;
+  bottom: -5px;
+  right: -8px;
+  opacity: 0;
+  transition: opacity 1s ease-in 0.5s;
+}
+
+.aca-img-inner.visible::before {
+  opacity: 1;
+}
+
+.aca-img-inner::after {
+  content: "";
+  position: absolute;
+  background: #ffc33d;
+  height: 6px;
+  width: 95%;
+  bottom: -5px;
+  right: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in 1s;
+}
+
+.aca-img-inner.visible::after {
+  opacity: 1;
+}
+.aca-p{
+    cursor: pointer;
+     background-color: #f2f2f2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 55%);
+     padding: 80px;
+     transition: 0.4s ease-in-out;
+}
+.aca-p:hover{
+   background-color: #fff;
+    box-shadow: 0 15px 15px rgb(0 0 0 / 55%);
+    
+}
+.aca-pri{
+cursor: pointer;
+       background-color: #f2f2f2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 55%);
+     padding: 80px;
+    
+     transition: 0.4s ease-in-out;
+}
+.aca-pri:hover{
+   background-color: #fff;
+    box-shadow: 0 15px 15px rgb(0 0 0 / 55%);
+    
+}
+.pri{
+     display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: rgb(141, 141, 220);
+}
+.pri div{
+   gap: 30px;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+.pri h1{
+    color: #fff;
+     text-shadow: 0 0 10px black;
+}

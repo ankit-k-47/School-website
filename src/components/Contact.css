@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.contact-main{
+
+    font-family: "Outfit",'sans-serif';
+}
+
+.con{
+   background-image: url('https://www.newmacaulayenglishschool.com/static/media/MacaulaySchoolPics.524fdd5654004eefc0de.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    text-shadow: 0 0 25px #f0f8ff;
+    text-align: center;
+    font-size: 40px;
+}
+.nav{
+     background-image: url("E:\DrighnaTech\School\school-website\public\gathering.jpg");
+     background-size: cover;
+    
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  padding-top: 10px;
+}
+
+img{
+    height: 90px;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   color:rgb(52, 27, 27);
+   font-size:30px;
+    text-shadow: 0 0 25px #f0f8ff;
+}
+.gen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+     
+}
+.gen2{
+   display: flex;
+   gap: 50px;
+    justify-content: center;
+}
+ .ge{
+    background-image: url('https://www.newmacaulayenglishschool.com/static/media/contactbg.956980fb95a7f5f5a013.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+.gen-sub1{
+  background-color: rgb(141,141,220);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 48px;
+  width: fit-content;
+  text-align: center;
+  cursor: pointer;
+ 
+
+}
+.gen-sub1:hover{
+     background: #f6f4f4;
+  animation: colorChange 5s infinite alternate;
+    transition: 20ms;
+}
+.gen2 div{
+    width: 230px;
+    
+}
+@keyframes colorChange {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+.cont{
+    display: flex;
+    justify-content: center;
+  background-image: url('E:\DrighnaTech\School\school-website\src\assets\con.jpg');
+  background-repeat: no-repeat;
+  background-color: #ced4da;
+  background-size: cover;
+}
+.contact{
+       
+        text-align: center;        
+}
+.conh1 h1{
+    color: rgb(141,141,220);
+    font-size: 60px;
+}
+
+.contact-one__input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-one__input-box input[type="text"], .contact-one__input-box input[type="email"] {
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color: #F6F6F6;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+    font-size: 16px;
+    color: #697585;
+    font-family: 'Urbanist', sans-serif;
+    display: block;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.a{
+    width: 600px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    
+    appearance: none;
+    border-radius: .25rem;
+}
+@media (min-width: 768px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+.contact-one__input-box.text-message-box {
+    height: 176px;
+    margin-bottom: 40px;
+}
+.contact-one__input-box textarea{
+    resize: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #697585 ;
+    height: 176px;
+    width: 100%;
+    background-color: #F6F6F6;
+    font-family: 'Urbanist', sans-serif;
+    padding: 20px 30px 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 0px;
+}
+.eduact-btn {
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    outline: none !important;
+     background: linear-gradient(to right, #4F5DE4,#4F5DE4,#f6f4f4 );
+    
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    text-transform: capitalize;
+    padding: 16px 25px 15px;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    transition: all ease 0.3s;
+}
